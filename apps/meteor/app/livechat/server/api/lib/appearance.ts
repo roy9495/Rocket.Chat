@@ -10,6 +10,7 @@ export async function findAppearance(): Promise<{ appearance: ISetting[] }> {
 				'Livechat_enable_message_character_limit',
 				'Livechat_message_character_limit',
 				'Livechat_show_agent_info',
+				'Livechat_add_recaptcha',
 				'Livechat_show_agent_email',
 				'Livechat_display_offline_form',
 				'Livechat_offline_form_unavailable',

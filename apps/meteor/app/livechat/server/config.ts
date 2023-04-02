@@ -149,6 +149,15 @@ Meteor.startup(function () {
 			enableQuery: omnichannelEnabledQuery,
 		});
 
+		this.add('Livechat_add_recaptcha', true, {
+			type: 'boolean',
+			group: 'Omnichannel',
+			section: 'Livechat',
+			public: true,
+			i18nLabel: 'Add_recaptcha',
+			enableQuery: omnichannelEnabledQuery,
+		});
+
 		this.add('Livechat_show_agent_email', true, {
 			type: 'boolean',
 			group: 'Omnichannel',
