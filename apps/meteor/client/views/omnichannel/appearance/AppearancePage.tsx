@@ -13,7 +13,6 @@ type LivechatAppearanceSettings = {
 	Livechat_title: string;
 	Livechat_title_color: string;
 	Livechat_show_agent_info: boolean;
-	Livechat_add_recaptcha: boolean;
 	Livechat_show_agent_email: boolean;
 	Livechat_display_offline_form: boolean;
 	Livechat_offline_form_unavailable: string;
